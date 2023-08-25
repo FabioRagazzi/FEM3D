@@ -64,7 +64,7 @@ function CreateMSH3D(name)
             TRIANGLES[dir]= reshape(TRIANGLES[dir][1], (3,:))'
         end
 
-        gmsh.write("msh/Cube.msh")
+        gmsh.write("xx_msh/Cube.msh")
 
     end
 
